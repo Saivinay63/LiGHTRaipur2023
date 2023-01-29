@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.timeline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form{
+  text-align: center;
+}
+
+hr{
+  background: #ffc107;
+  width: 15%;
+  margin: 5px auto 20px auto;
+}
+
+footer{
+  margin: 20px 0 0 0;
+  background: #ffc107;
+  width: 100vw;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  img.logo{
+    width: 40px;
+    float: left;
+    padding-left: 10px;
+  }
+
+  i{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: grey;
+    font-size: 35px;
+    cursor: pointer;
+}
