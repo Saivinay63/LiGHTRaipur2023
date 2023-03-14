@@ -1,0 +1,26 @@
+.skill-row {
+  font-size: 25px;
+  margin: 200px auto 100px auto;
+  width: 70%;
+  text-align: left;
+}
+.pie {
+  --w: 150px;
+  width: var(--w);
+  aspect-ratio: 1;
+  display: inline-grid;
+  place-content: center;
+  margin: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.circle-chart__circle {
+  animation: circle-chart-fill 2s reverse; /* 1 */
+  transform: rotate(-90deg); /* 2, 3 */
+  transform-origin: center; /* 4 */
+}
+.circle-chart__info {
+  animation: circle-chart-appear 2s forwards;
+  opacity: 100;
+}
